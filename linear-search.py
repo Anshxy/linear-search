@@ -9,8 +9,10 @@ def search_result(arr, y, n):
         if arr[x] == n: 
             return x
     return False
-    
+
+#Making array
 array = [1, 2, 3, 4, 155, 998, 66, 56, 798, 23, 34 , 56, 3764, 1000]
+#Value we want to get the index of, If the the value is not in the array the code returns "Number not found".
 find = 3764
 length_arr = len(array)
 
